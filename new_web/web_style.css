@@ -1,0 +1,70 @@
+body{
+	width:100%;
+	background: #ccc;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+nav{
+	margin:0px; 
+	height: 60px;
+	width:100%; 
+	background: #fff;
+}
+div.nav_logo{
+	float:left;
+	height:56px;
+	padding:2px;
+	display: block;
+}
+div.nav_logo ul{list-style-type: none;}
+nav .nav_menu ul{
+	float:right;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+
+}
+nav .nav_menu ul li{
+	display: block;
+	float: left;
+	margin :0 10px;
+	padding:5px;
+	cursor: pointer;
+	/*background: #ccc;*/
+	font-size: 15px;
+	/*line-height:50px;*/
+}
+.main_content{
+	text-align: center;
+	margin-top:30px;
+	font-size: 2.0em;
+
+}
+form button{
+	height:40px;
+	width:80px;
+
+}
+.sign_up input{
+  	border:none;
+  	height: 40px;
+  	line-height: 40px;
+  	margin-bottom: 10px;
+  	font-size: 15px;
+  	width:400px;
+  	background: #ccc;
+  	border-bottom: 3px solid #fff;
+}
+.log_in input{
+	border:none;
+  	height: 40px;
+  	line-height: 40px;
+  	margin-bottom: 10px;
+  	font-size: 15px;
+  	width:400px;
+  	background: #ccc;
+  	border-bottom: 3px solid #fff;
+  	}
